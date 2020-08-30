@@ -1,0 +1,141 @@
+/* ---------------------- SETTINGS ------------------ */
+/*font-family: 'Expletus Sans', cursive;*/
+/*font-family: 'Rubik', sans-serif;*/
+
+/* ---------------------- GENERIC ------------------ */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* ---------------------- ELEMENTS ------------------ */
+body {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration-line: underline;
+
+    color: white;
+}
+
+h1 {
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+}
+
+h2 {
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+}
+
+/* ---------------------- COMPONENTS ------------------ */
+.conteneur {
+    margin: 0 auto;
+    max-width: 1148px;
+}
+
+.header-principal {
+    position: absolute;
+    width: 100%;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    background: #FF9800;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav ul li {
+    padding-right: 10px;
+}
+
+.hero {
+    align-items: center;
+    background: #FFC107;
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.hero h1 {
+    padding: 88px 0;
+}
+
+/*information*/
+.information {
+    padding: 30px;
+}
+
+.information .conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte {
+    background: #F0F0F0;
+    width: 31%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.carte header {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.carte:nth-child(1) header {
+    background: #E34E26;
+}
+
+.carte:nth-child(2) header {
+    background: #0270BB;
+}
+
+.carte:nth-child(3) header {
+    background: #F8DC3D;
+}
+
+
+.conteneur .content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* ---------------------- UTILITIES ------------------ */
